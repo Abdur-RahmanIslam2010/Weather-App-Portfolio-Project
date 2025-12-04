@@ -27,7 +27,9 @@ app.get('/icons/:icon', (req, res) => {
         "snow": path.resolve('./icons/weather_snow_snowflake_winter_freeze_icon_189094.svg'),
         "shower": path.resolve('./icons/rain_cloud_weather_icon_187688.svg'),
         "snow_shower": path.resolve('./icons/weather_snow_cloud_snowflake_snowfall_icon_189106.svg'),
-        "thunderstorm": path.resolve('./icons/weather_thunder_storm_icon_187682.svg')
+        "thunderstorm": path.resolve('./icons/weather_thunder_storm_icon_187682.svg'),
+        "left_arrow": path.resolve('./icons/arrow_left_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg'),
+        "right_arrow": path.resolve('./icons/arrow_right_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg')
     };
     res.sendFile(icons[icon]);
 });
