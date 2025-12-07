@@ -1,5 +1,5 @@
 .weather-cards-container {
-    background-color: hsl(0, 0%, 93%);
+    backdrop-filter: blur(10px);
     width: max-content;
     height: auto;
     display: flex;
@@ -7,14 +7,20 @@
     justify-content: space-between;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), -5px -5px 5px rgba(255, 255, 255, 0.6);
+    box-shadow: 5px 5px 5px rgba(119, 183, 255, 0.4), -5px -5px 5px rgba(119, 183, 255, 0.4);
     justify-self: center;
     margin-top: 20px;
 }
 
 .tables {
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
     padding: 20px;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    justify-self: center;
+    width: max-content;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgba(119, 183, 255, 0.4), -5px -5px 5px rgba(119, 183, 255, 0.4);
 }

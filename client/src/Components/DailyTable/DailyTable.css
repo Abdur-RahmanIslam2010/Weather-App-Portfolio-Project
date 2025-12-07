@@ -1,20 +1,34 @@
-.daily-table table, .daily-table tr, .daily-table td {
-    border: 1px solid black;
+.daily-table tr, .daily-table td {
     padding: 1em;
 }
 
+.daily-table table {
+    border-collapse: collapse;
+}
+
+
 .daily-table th {
-    border: 3px solid green;
     padding: 1em;
+    background-color: rgb(96, 205, 255);
+    border-bottom: 1px solid black;
 }
 
 .daily-table tbody tr:nth-child(2n + 1) {
     background-color: white;
 }
 
+.daily-table tbody tr:nth-child(2n) {
+    background-color: hsl(0, 0%, 90%);
+}
+
 .daily-table {
     width: fit-content;
     margin-top: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
 }
 
 

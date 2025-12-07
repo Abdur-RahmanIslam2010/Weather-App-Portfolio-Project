@@ -1,19 +1,28 @@
-.temp-table table, .temp-table tr, .temp-table td {
-    border: 1px solid black;
+.temp-table tr, .temp-table td {
     padding: 1em;
 }
 
 .temp-table th {
-    border: 3px solid green;
     padding: 1em;
+    box-shadow: inset 0 -1px 0 black;
+    background-color: rgb(96, 205, 255);
+}
+
+.temp-table table {
+    border-collapse: collapse;
 }
 
 .temp-table tbody tr:nth-child(2n + 1) {
     background-color: white;
 }
 
+.temp-table tbody tr:nth-child(2n) {
+    background-color: hsl(0, 0%, 90%);
+}
+
 .temp-table {
     width: fit-content;
+    margin-right: 6em;
 }
 
 .table-date-heading {
@@ -27,17 +36,18 @@
     margin-bottom: 5px;
 }
 
-
+/* Replace localhost with the IP address of the device running the website for access across the local network  */
 #left-arrow {
-    background-image: url('http://localhost:8080/icons/left_arrow');
+    background-image: url('http://192:8080/icons/left_arrow');
     background-size: cover;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
     border: none;
-    background-color: hsl(0, 0%, 90%);
+    background-color: rgba(0, 0, 0, 0);
 }
 
+/* Replace localhost with the IP address of the device running the website for access across the local network  */
 #right-arrow {
     background-image: url('http://localhost:8080/icons/right_arrow');
     background-size: cover;
@@ -45,12 +55,14 @@
     width: 30px;
     height: 30px;
     border: none;
-    background-color: hsl(0, 0%, 90%);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .data-table {
-    height: 480px;
+    height: 429px;
     overflow: auto;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 .data-table thead {
