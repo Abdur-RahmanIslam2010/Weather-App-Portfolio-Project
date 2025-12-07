@@ -93,6 +93,7 @@ function App() {
   };
 
   function getWeatherIcon(code) {
+    // eslint-disable-next-line
     for (const [ _, codes ] of Object.entries(wmoCodes)) {
       if (codes.includes(code)) {return codes.at(-1)};
     }
