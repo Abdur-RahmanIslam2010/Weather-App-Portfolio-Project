@@ -38,7 +38,7 @@
 
 /* Replace localhost with the IP address of the device running the website for access across the local network  */
 #left-arrow {
-    background-image: url('http://192:8080/icons/left_arrow');
+    background-image: url('http://localhost:8080/icons/left_arrow');
     background-size: cover;
     background-repeat: no-repeat;
     width: 30px;
