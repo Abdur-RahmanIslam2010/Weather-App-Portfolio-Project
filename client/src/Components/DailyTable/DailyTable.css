@@ -28,7 +28,6 @@
     border: 1px solid black;
     border-radius: 20px;
     overflow: hidden;
-    margin-bottom: 10px;
 }
 
 
@@ -36,6 +35,16 @@
     background-color: hsl(0, 0%, 90%);
 }
 
-.daily-table::-webkit-scrollbar {
-    display: none;
+@media (max-width: 500px) {
+    .daily-table, .daily-table table {
+        width: 90vw;
+    }
+
+    .daily-table {
+        margin-left: auto;
+    }
+
+    .daily-table th, .daily-table td {
+        padding: .1em;
+    }
 }
