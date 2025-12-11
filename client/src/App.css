@@ -46,3 +46,21 @@
         min-width: 100%;
     }
 }
+
+@media (max-width: 830px) and (min-width: 500px) {
+    .App {
+        transform: scale(.6);
+        margin-left: 40vw;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 830px) {
+    .App {
+        transform: scale(.7);
+        margin-right: 40vw;
+    }
+
+    .tables {
+        margin-left: 10vw;
+    }
+}
