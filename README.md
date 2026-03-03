@@ -1,3 +1,4 @@
+# Note: Development of this project has been migrated to [Gitlab](https://gitlab.com/portfolio-projects3474509/Weather-App-Portfolio-Project)
 # My Weather API Project
 ## The purpose of this project
 I made this project to showcase my full-stack website development skills, despite not covering other concepts like CRUD and databases, while I have these skills already. Therefore, this only shows some aspects of web development I am capable of using in projects like these.
